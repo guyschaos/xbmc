@@ -21,6 +21,8 @@
  
  /*** Extra's not found in the Android NDK ***/
 
+/*
+
 // missing in early NDKs, is present in r9b+
 extern float AMotionEvent_getAxisValue(const AInputEvent* motion_event, int32_t axis, size_t pointer_index);
 extern typeof(AMotionEvent_getAxisValue) *p_AMotionEvent_getAxisValue;
@@ -31,6 +33,8 @@ extern int32_t AMotionEvent_getButtonState(const AInputEvent* motion_event);
 extern typeof(AMotionEvent_getButtonState) *p_AMotionEvent_getButtonState;
 #define AMotionEvent_getButtonState (*p_AMotionEvent_getButtonState)
 
+*/
+/**
  //Additional defines from android.view.KeyEvent (http://developer.android.com/reference/android/view/KeyEvent.html)
 #define AKEYCODE_ESCAPE 111
 #define AKEYCODE_FORWARD_DEL 112
@@ -71,3 +75,4 @@ extern typeof(AMotionEvent_getButtonState) *p_AMotionEvent_getButtonState;
 #define AMOTION_EVENT_AXIS_RTRIGGER 18
 // mouse vertical wheel
 #define AMOTION_EVENT_AXIS_VSCROLL 0x09
+**/
